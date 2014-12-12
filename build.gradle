@@ -1,0 +1,26 @@
+allprojects {
+    apply plugin: 'java'
+}
+
+
+sourceSets {
+
+    main {
+        output.classesDir "build/production"
+
+        java {
+            srcDir "src"
+        }
+    }
+
+    test {
+        output.classesDir "build/test"
+
+        java {
+            srcDir "test"
+            compileClasspath = fileTree("lib") + sourceSets.main.output
+            runtimeClasspath += fileTree("lib")
+        }
+    }
+}
+

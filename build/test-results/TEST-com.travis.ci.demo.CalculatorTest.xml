@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.travis.ci.demo.CalculatorTest" tests="1" failures="0" errors="0" timestamp="2014-12-12T16:24:13" hostname="CGML068960.local" time="0.003">
+  <properties/>
+  <testcase name="Add_shouldAdd_2_positiveNumbers" classname="com.travis.ci.demo.CalculatorTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
